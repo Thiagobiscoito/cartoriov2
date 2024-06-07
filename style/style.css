@@ -110,10 +110,10 @@ nav .menu-icon {
 
 /* NOSSOS SERCIÇOS */
 
-.servicos h2 {
+.servicos .container h2 {
     color: var(--azul);
     text-align: center;
-    font-size: 50px;
+    font-size: 56px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -228,7 +228,7 @@ footer .desenvolvido h4 {
 }
 
 
-/* RESPONSIVIDADE DA PAGINA */
+/* RESPONSIVIDADE DA PAGINA  834px*/
 @media (max-width: 834px) {
     nav .menu-icon {
         display: block;
@@ -276,7 +276,7 @@ footer .desenvolvido h4 {
         margin: 0 auto;
         transition: 0.3s;
     }
-    
+
     nav ul a:hover::after {
         width: 25%;
     }
@@ -289,7 +289,7 @@ footer .desenvolvido h4 {
         height: 200px;
         margin-top: 80px;
     }
-    
+
     .banner h1 {
         font-size: 30px;
         font-weight: 700;
@@ -300,74 +300,396 @@ footer .desenvolvido h4 {
 }
 
 /* FOOTER */
-@media  (max-width: 834px) {
+@media (max-width: 834px) {
     footer {
         background-color: var(--azul-escuro);
     }
-    
+
     footer .info {
         display: flex;
         margin-bottom: 20px;
     }
-    
+
     .endereco {
         padding: 0 1%;
     }
-    
+
     .endereco h3 {
         font-size: 17px;
         color: var(--branco);
         padding: 3px 0;
     }
-    
+
     .endereco li {
         color: var(--branco);
         padding: 5px 0;
     }
-    
+
     .links {
         padding: 0 1%;
     }
-    
+
     .links h3 {
         font-size: 17px;
         color: var(--branco);
         padding: 3px 0;
     }
-    
+
     .links li {
         padding: 1px 0;
     }
-    
+
     .links li a {
         color: var(--branco);
         font-size: 14px;
     }
-    
+
     .contato {
         padding: 0 1%;
     }
-    
+
     .contato h3 {
         font-size: 17px;
         color: var(--branco);
     }
-    
+
     .contato li {
         padding: 5px 0;
         margin: 6px 0;
         color: var(--branco);
         font-size: 14px;
     }
-    
+
     footer .divisao {
         margin: 20px 0;
     }
-    
+
     footer .desenvolvido {
         text-align: center;
     }
-    
+
+    footer .desenvolvido h4 {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--branco);
+    }
+
+}
+
+/* FIM DO RESPONSIVO 834PX */
+
+/* BANNER  RESPONSIVO 720*/
+@media (max-width: 720px) {
+    .banner {
+        background: var(--azul-escuro);
+        height: 171px;
+        margin-top: 80px;
+    }
+
+    .banner h1 {
+        font-size: 23px;
+        font-weight: 700;
+        color: var(--branco);
+        text-align: center;
+        padding: 61px 0;
+    }
+}
+
+/* NOSSOS SERCIÇOS */
+@media (max-width: 720px) {
+    .servicos .container h2 {
+        color: var(--azul);
+        text-align: center;
+        font-size: 46px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+/* FOOTER */
+@media (max-width: 720px) {
+    footer {
+        background-color: var(--azul-escuro);
+    }
+
+    footer .info {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .endereco {
+        padding: 0 1%;
+    }
+
+    .endereco h3 {
+        font-size: 15px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .endereco li {
+        color: var(--branco);
+        padding: 5px 0;
+        font-size: 12px;
+    }
+
+    .links {
+        padding: 0 1%;
+    }
+
+    .links h3 {
+        font-size: 15px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .links li {
+        padding: 1px 0;
+    }
+
+    .links li a {
+        color: var(--branco);
+        font-size: 12px;
+    }
+
+    .contato {
+        padding: 0 1%;
+    }
+
+    .contato h3 {
+        font-size: 15px;
+        color: var(--branco);
+    }
+
+    .contato li {
+        padding: 5px 0;
+        margin: 6px 0;
+        color: var(--branco);
+        font-size: 12px;
+    }
+
+    footer .divisao {
+        margin: 20px 0;
+    }
+
+    footer .desenvolvido {
+        text-align: center;
+    }
+
+    footer .desenvolvido h4 {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--branco);
+    }
+
+}
+
+/* FOOTER RESPONSIVO MOBILE */
+/* BANNER 360PX*/
+@media (max-width: 440px) {
+    .banner {
+        background: var(--azul-escuro);
+        height: 155px;
+        margin-top: 80px;
+    }
+
+    .banner h1 {
+        font-size: 17px;
+        font-weight: 700;
+        color: var(--branco);
+        text-align: center;
+        padding: 48px 0;
+    }
+}
+
+
+/* NOSSOS SERCIÇOS */
+@media (max-width: 440px) {
+    .servicos .container h2 {
+        color: var(--azul);
+        text-align: center;
+        font-size: 37px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+/* FOOTER MOBILE */
+@media (max-width: 440px) {
+    footer {
+        background-color: var(--azul-escuro);
+    }
+
+    footer .info {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .endereco {
+        margin-bottom: 15px;
+    }
+
+    .endereco h3 {
+        font-size: 24px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .endereco li {
+        color: var(--branco);
+        padding: 5px 0;
+        font-size: 15px;
+    }
+
+    .links {
+        margin-bottom: 15px;
+    }
+
+    .links h3 {
+        font-size: 24px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .links li {
+        padding: 1px 0;
+    }
+
+    .links li a {
+        color: var(--branco);
+        font-size: 18px;
+    }
+
+    .contato {
+        padding: 0 1%;
+    }
+
+    .contato h3 {
+        font-size: 24px;
+        color: var(--branco);
+    }
+
+    .contato li {
+        padding: 5px 0;
+        margin: 6px 0;
+        color: var(--branco);
+        font-size: 18px;
+    }
+
+    footer .divisao {
+        margin: 20px 0;
+    }
+
+    footer .desenvolvido {
+        text-align: center;
+    }
+
+    footer .desenvolvido h4 {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--branco);
+    }
+}
+
+/* MOBILE 360PX */
+@media (max-width: 440px) {
+    .banner {
+        background: var(--azul-escuro);
+        height: 111px;
+        margin-top: 80px;
+    }
+
+    .banner h1 {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--branco);
+        text-align: center;
+        padding: 40px 0;
+    }
+}
+
+
+/* NOSSOS SERCIÇOS */
+@media (max-width: 360px) {
+    .servicos .container h2 {
+        color: var(--azul);
+        text-align: center;
+        font-size: 34px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+}
+
+/* FOOTER MOBILE */
+@media (max-width: 360px) {
+    footer {
+        background-color: var(--azul-escuro);
+    }
+
+    footer .info {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .endereco {
+        margin-bottom: 15px;
+    }
+
+    .endereco h3 {
+        font-size: 24px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .endereco li {
+        color: var(--branco);
+        padding: 5px 0;
+        font-size: 15px;
+    }
+
+    .links {
+        margin-bottom: 15px;
+    }
+
+    .links h3 {
+        font-size: 24px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .links li {
+        padding: 1px 0;
+    }
+
+    .links li a {
+        color: var(--branco);
+        font-size: 18px;
+    }
+
+    .contato {
+        padding: 0 1%;
+    }
+
+    .contato h3 {
+        font-size: 24px;
+        color: var(--branco);
+    }
+
+    .contato li {
+        padding: 5px 0;
+        margin: 6px 0;
+        color: var(--branco);
+        font-size: 18px;
+    }
+
+    footer .divisao {
+        margin: 20px 0;
+    }
+
+    footer .desenvolvido {
+        text-align: center;
+    }
+
     footer .desenvolvido h4 {
         font-size: 15px;
         font-weight: 600;
