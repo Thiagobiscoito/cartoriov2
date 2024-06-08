@@ -250,6 +250,7 @@ footer .desenvolvido h4 {
 
     nav ul.open {
         left: 0;
+        top: 80px;
     }
 
     nav ul li {
@@ -282,7 +283,7 @@ footer .desenvolvido h4 {
     }
 }
 
-/* BANNER */
+/* BANNER 834PX*/
 @media (max-width: 834px) {
     .banner {
         background: var(--azul-escuro);
@@ -299,7 +300,7 @@ footer .desenvolvido h4 {
     }
 }
 
-/* FOOTER */
+/* FOOTER 834PX*/
 @media (max-width: 834px) {
     footer {
         background-color: var(--azul-escuro);
@@ -378,7 +379,7 @@ footer .desenvolvido h4 {
 
 /* FIM DO RESPONSIVO 834PX */
 
-/* BANNER  RESPONSIVO 720*/
+/* BANNER  RESPONSIVO 720PX*/
 @media (max-width: 720px) {
     .banner {
         background: var(--azul-escuro);
@@ -395,7 +396,7 @@ footer .desenvolvido h4 {
     }
 }
 
-/* NOSSOS SERCIÇOS */
+/* NOSSOS SERCIÇOS 720PX*/
 @media (max-width: 720px) {
     .servicos .container h2 {
         color: var(--azul);
@@ -406,7 +407,7 @@ footer .desenvolvido h4 {
     }
 }
 
-/* FOOTER */
+/* FOOTER 720PX*/
 @media (max-width: 720px) {
     footer {
         background-color: var(--azul-escuro);
@@ -481,11 +482,64 @@ footer .desenvolvido h4 {
         font-weight: 600;
         color: var(--branco);
     }
-
 }
 
-/* FOOTER RESPONSIVO MOBILE */
-/* BANNER 360PX*/
+/* RESPONSIVO MOBILE 440PX*/
+@media (max-width: 440px) {
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 85px;
+        left: -100%;
+        background-color: var(--azul-escuro);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul.open {
+        left: 0;
+        top: 80px;
+    }
+
+    nav ul li {
+        margin: 49px 9px;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+        color: var(--branco);
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    nav ul li a:hover {
+        color: white;
+    }
+
+    nav ul a:after {
+        content: "";
+        background-color: #4f9cf9;
+        height: 3px;
+        width: 0%;
+        display: block;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    nav ul a:hover::after {
+        width: 25%;
+    }
+}
+
+/* BANNER 440PX*/
 @media (max-width: 440px) {
     .banner {
         background: var(--azul-escuro);
@@ -503,7 +557,7 @@ footer .desenvolvido h4 {
 }
 
 
-/* NOSSOS SERCIÇOS */
+/* NOSSOS SERCIÇOS 440PX*/
 @media (max-width: 440px) {
     .servicos .container h2 {
         color: var(--azul);
@@ -514,7 +568,7 @@ footer .desenvolvido h4 {
     }
 }
 
-/* FOOTER MOBILE */
+/* FOOTER MOBILE 440PX*/
 @media (max-width: 440px) {
     footer {
         background-color: var(--azul-escuro);
@@ -592,7 +646,63 @@ footer .desenvolvido h4 {
 }
 
 /* MOBILE 360PX */
-@media (max-width: 440px) {
+/* RESPONSIVO MOBILE 360PX*/
+@media (max-width: 360px) {
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 85px;
+        left: -100%;
+        background-color: var(--azul-escuro);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul.open {
+        left: 0;
+        top: 80px;
+    }
+
+    nav ul li {
+        margin: 45px 9px;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+        color: var(--branco);
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    nav ul li a:hover {
+        color: white;
+    }
+
+    nav ul a:after {
+        content: "";
+        background-color: #4f9cf9;
+        height: 3px;
+        width: 0%;
+        display: block;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    nav ul a:hover::after {
+        width: 25%;
+    }
+}
+
+/* BANNER 360PX*/
+@media (max-width: 360px) {
     .banner {
         background: var(--azul-escuro);
         height: 111px;
@@ -608,8 +718,7 @@ footer .desenvolvido h4 {
     }
 }
 
-
-/* NOSSOS SERCIÇOS */
+/* NOSSOS SERCIÇOS 360PX*/
 @media (max-width: 360px) {
     .servicos .container h2 {
         color: var(--azul);
@@ -620,7 +729,7 @@ footer .desenvolvido h4 {
     }
 }
 
-/* FOOTER MOBILE */
+/* FOOTER MOBILE 360PX*/
 @media (max-width: 360px) {
     footer {
         background-color: var(--azul-escuro);
@@ -695,5 +804,138 @@ footer .desenvolvido h4 {
         font-weight: 600;
         color: var(--branco);
     }
+}
 
+/* MOBILE 320PX */
+/* RESPONSIVO MOBILE 320PX*/
+@media (max-width: 320px) {
+    nav .menu-icon {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 85px;
+        left: -100%;
+        background-color: var(--azul-escuro);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    nav ul.open {
+        left: 0;
+        top: 80px;
+    }
+
+    nav ul li {
+        margin: 20px 9px;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+        color: var(--branco);
+        width: 100%;
+        margin: 40px 0;
+        padding: 0 18px;
+    }
+
+    nav ul li a:hover {
+        color: white;
+    }
+
+    nav ul a:after {
+        content: "";
+        background-color: #4f9cf9;
+        height: 3px;
+        width: 0%;
+        display: block;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    nav ul a:hover::after {
+        width: 25%;
+    }
+}
+
+/* FOOTER MOBILE 320PX*/
+@media (max-width: 320px) {
+    footer {
+        background-color: var(--azul-escuro);
+    }
+
+    footer .info {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .endereco {
+        margin-bottom: 15px;
+    }
+
+    .endereco h3 {
+        font-size: 19px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .endereco li {
+        color: var(--branco);
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .links {
+        margin-bottom: 15px;
+    }
+
+    .links h3 {
+        font-size: 19px;
+        color: var(--branco);
+        padding: 3px 0;
+    }
+
+    .links li {
+        padding: 1px 0;
+    }
+
+    .links li a {
+        color: var(--branco);
+        font-size: 14px;
+    }
+
+    .contato {
+        padding: 0 1%;
+    }
+
+    .contato h3 {
+        font-size: 19px;
+        color: var(--branco);
+    }
+
+    .contato li {
+        padding: 5px 0;
+        margin: 6px 0;
+        color: var(--branco);
+        font-size: 14px;
+    }
+
+    footer .divisao {
+        margin: 20px 0;
+    }
+
+    footer .desenvolvido {
+        text-align: center;
+    }
+
+    footer .desenvolvido h4 {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--branco);
+    }
 }
