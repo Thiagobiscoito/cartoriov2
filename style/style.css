@@ -111,7 +111,7 @@ nav .menu-icon {
 /* NOSSOS SERCIÇOS */
 
 .servicos .container h2 {
-    color: var(--azul);
+    color: var(--azul-escuro);
     text-align: center;
     font-size: 56px;
     font-weight: 400;
@@ -165,10 +165,6 @@ footer .info {
     margin-bottom: 20px;
 }
 
-.endereco {
-    padding: 0 5%;
-}
-
 .endereco h3 {
     font-size: 19px;
     color: var(--branco);
@@ -181,7 +177,7 @@ footer .info {
 }
 
 .links {
-    padding: 0 1%;
+    padding: 0 5%;
 }
 
 .links h3 {
@@ -199,7 +195,7 @@ footer .info {
 }
 
 .contato {
-    padding: 0 1%;
+    padding: 0 5%;
 }
 
 .contato h3 {
@@ -227,7 +223,39 @@ footer .desenvolvido h4 {
     color: var(--branco);
 }
 
+/* ============================================= */
 
+/* PAGINA AUTENTICAÇÃO */
+/* BANNER PAGINA */
+.banner-page {
+    background: var(--azul-escuro);
+    height: 120px;
+    margin-top: 80px;
+}
+
+.banner-page h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 44px 0;
+}
+
+/* CONTEUDO AUTENTICAÇÃO */
+.conteudo .container h3 {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--azul-escuro)
+}
+
+.conteudo .container p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--azul);
+    padding: 20px 0;
+}
+
+/* ============================================= */
 /* RESPONSIVIDADE DA PAGINA  834px*/
 @media (max-width: 834px) {
     nav .menu-icon {
@@ -841,7 +869,6 @@ footer .desenvolvido h4 {
         color: var(--branco);
         width: 100%;
         margin: 40px 0;
-        padding: 0 18px;
     }
 
     nav ul li a:hover {
