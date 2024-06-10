@@ -34,6 +34,24 @@ body {
     background-color: var(--cinza);
 }
 
+p {
+    color: #4C556C;
+}
+
+/* BANNER PAGINA DE TODAS AS PAGINAS*/
+.banner-page {
+    background: var(--azul-escuro);
+    height: 120px;
+    margin-top: 80px;
+}
+
+.banner-page h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 44px 0;
+}
+
 /* PAGINA HOME */
 
 /* navbar */
@@ -225,22 +243,7 @@ footer .desenvolvido h4 {
 
 /* ============================================= */
 
-/* PAGINA AUTENTICAÇÃO */
-/* BANNER PAGINA */
-.banner-page {
-    background: var(--azul-escuro);
-    height: 120px;
-    margin-top: 80px;
-}
-
-.banner-page h2 {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--branco);
-    padding: 44px 0;
-}
-
-/* CONTEUDO AUTENTICAÇÃO */
+/* CONTEUDO PAGINAS*/
 .conteudo .container h3 {
     font-size: 35px;
     font-weight: 400;
@@ -251,8 +254,61 @@ footer .desenvolvido h4 {
     font-size: 20px;
     font-weight: 400;
     text-align: justify;
-    color: var(--azul);
+    /* color: var(--azul); */
     padding: 20px 0;
+}
+
+.conteudo .container h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--azul-escuro);
+}
+
+/* ACORDEON */
+
+.accordion {
+    background-color: var(--azul-escuro);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #4cb4e4;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.text-acordion {
+    padding: 15px 0 7px;
+    font-size: 20px;
 }
 
 /* ============================================= */
