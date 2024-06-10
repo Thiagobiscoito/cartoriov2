@@ -303,7 +303,6 @@ footer .desenvolvido h4 {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: justify;
-    margin-bottom: 35px;
 }
 
 .text-acordion {
