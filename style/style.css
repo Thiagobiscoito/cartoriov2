@@ -246,6 +246,22 @@ footer .desenvolvido h4 {
 
 /* ============================================= */
 
+/* BOTAO WATSAPP */
+.watsapp a{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    color: #0acd92;
+    font-size: 80px;
+    cursor:pointer;
+
+}
+
+.watsapp a i:hover {
+    color: #13b92e;
+}
+
 /* CONTEUDO PAGINAS*/
 .conteudo .container h3 {
     font-size: 35px;
