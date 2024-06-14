@@ -193,6 +193,7 @@ footer .info {
 .endereco li {
     color: var(--branco);
     padding: 7px 0;
+    line-height: 26px
 }
 
 .links {
@@ -211,6 +212,7 @@ footer .info {
 
 .links li a {
     color: var(--branco);
+    line-height: 26px
 }
 
 .contato {
@@ -223,9 +225,9 @@ footer .info {
 }
 
 .contato li {
-    padding: 5px 0;
     margin: 9px 0;
     color: var(--branco);
+    line-height: 26px;
 }
 
 footer .divisao {
