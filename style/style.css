@@ -329,6 +329,20 @@ footer .desenvolvido h4 {
     font-size: 20px;
 }
 
+/* MAPA DA LOCALIZAÇÃO */
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.info .esquerda { 
+    width: 50%;
+    padding: 30px;
+    background-color: var(--azul-escuro);
+    border-radius: 14px;
+    height: fit-content;
+}
 /* ============================================= */
 /* RESPONSIVIDADE DA PAGINA  834px*/
 @media (max-width: 834px) {
